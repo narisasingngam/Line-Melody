@@ -9,7 +9,7 @@ const FriendListPage =  () => {
 
   return (
     <Container>
-      {friends.items.map((friend, index) => (
+      {friends.items && friends.items.map((friend, index) => (
         <Card>
           <CardProfile name={friend.displayName} image={friend.pictureUrl} userId={friend.userId}/>
         </Card>
