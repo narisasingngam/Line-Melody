@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardProfile renders CardProfile correctly 1`] = `
+.c0 {
+  width: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width:600px) {
+  .c0 {
+    width: 50px;
+  }
+}
+
+<div>
+  <img
+    class="c0"
+    src="url"
+  />
+  <h4>
+    Name your friend: name
+  </h4>
+  <button>
+    Input Melody
+  </button>
+  <div>
+    <input />
+    <button>
+      Sent Melody to your friend
+    </button>
+  </div>
+  <div>
+    <div>
+      Invalid melody: You sent on ower melody
+    </div>
+  </div>
+</div>
+`;

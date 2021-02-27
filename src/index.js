@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FriendListPage from './friendMelody/page/FriendListPage'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FriendListPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
